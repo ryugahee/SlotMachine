@@ -14,7 +14,7 @@ button.onclick = function() {
 
     let arr = [];
     for (let i = 0; i < 3; i++) {
-        arr[i] = Math.floor((Math.random() * 9));
+        arr[i] = Math.floor((Math.random() * 10));
     }
         let n1 = arr[0];
         let n2 = arr[1];
